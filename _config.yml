@@ -14,7 +14,7 @@ search:
   heading_level: 2   # 搜索结果显示到二级标题
 
 # 切换颜色方案（内置有 light/dark）
-color_scheme: dark   # 想先换个风格就直接用 dark
+color_scheme: custom1  # 想先换个风格就直接用 dark
 
 # 页面导航折叠
 nav_sort: case_insensitive   # 侧边栏排序不区分大小写
