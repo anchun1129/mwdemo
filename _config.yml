@@ -1,8 +1,37 @@
-title: Just the Docs Template
+title: docs
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+#网站实际地址
+url: https://anchun1129.github.io/mwdemo/
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+aux_links: #外部链接
+  Template Repository: https://github.com/anchun1129/mwdemo
+
+# 启用搜索（推荐）
+search_enabled: true
+search:
+  heading_level: 2   # 搜索结果显示到二级标题
+
+# 切换颜色方案（内置有 light/dark）
+color_scheme: dark   # 想先换个风格就直接用 dark
+
+# 页面导航折叠
+nav_sort: case_insensitive   # 侧边栏排序不区分大小写
+
+# 回到顶部按钮
+back_to_top: true
+back_to_top_text: "回到顶部"
+
+# 页脚
+footer_content: "Copyright &copy; anchun. 使用 Just the Docs 构建."
+
+# 显示页面最后修改时间
+last_edit_timestamp: true
+last_edit_time_format: "%Y-%m-%d"
+
+# 启用代码复制按钮
+enable_copy_code_button: true
+
+# 开启 MathJax 数学公式 (如果需要)
+math: mathjax
